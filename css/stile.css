@@ -6,8 +6,26 @@
 }
 html{
     font-family: Rubik Mono One, sans-serif;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
 }
 /* COMMON */
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    color: yellow;
+}
+.content2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: green;
+}
 /* NAV */
 li{
     display: inline-block;
@@ -30,7 +48,7 @@ ul{
     position: relative;
     width: 100%;
     height: 100vh;
-    text-align: center;
+    text-align: center;  
 }
 .red{
     background-color: red;
@@ -41,6 +59,6 @@ ul{
 .yellow{
     background-color: yellow;
 }
-img{
-    text-align: center;
+h1{
+    font-size: 50px;
 }
